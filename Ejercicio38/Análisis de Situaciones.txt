@@ -1,0 +1,4 @@
+1) La función devuelve correctamente el factorial de números chicos.
+2) La función devuelve un valor incorrecto para el factorial de números grandes.
+3) La causa del problema es que el tipo de dato int (entero), admite un rango muy chico de valores para representar productos sucesivos. Para solucionar esto, se necesita que la función devuelva un tipo de dato double. 
+Sin embargo el double también posee un límite, haciendo que la función funcione hasta cierto número. La longitud del número depende de la cantidad de bits que pueda procesar el microprocesador.
